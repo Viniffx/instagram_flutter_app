@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
+import 'pages/login_page.dart';
 
 class InstagramApp extends StatelessWidget {
   const InstagramApp({super.key});
@@ -14,7 +14,7 @@ class InstagramApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 12, 109, 155),
           brightness: Brightness.light,),
       ),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
